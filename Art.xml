@@ -17,16 +17,25 @@
               </block>
             </value>
             <next>
-              <block type="movement_left" id="182">
+              <block type="movement_reverse" id="316">
                 <next>
-                  <block type="movement_reverse" id="316">
+                  <block type="robot_delay" id="184" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="213">
+                        <field name="NUM">5000</field>
+                      </block>
+                    </value>
                     <next>
-                      <block type="robot_delay" id="184" inline="true">
-                        <value name="DELAY">
-                          <block type="math_number" id="213">
-                            <field name="NUM">1000</field>
+                      <block type="movement_left" id="182">
+                        <next>
+                          <block type="robot_delay" id="317" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="318">
+                                <field name="NUM">1000</field>
+                              </block>
+                            </value>
                           </block>
-                        </value>
+                        </next>
                       </block>
                     </next>
                   </block>
