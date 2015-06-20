@@ -7,36 +7,23 @@
       </block>
     </value>
     <statement name="DO">
-      <block type="movement_forward" id="163">
+      <block type="movement_forward" id="357">
         <next>
-          <block type="robot_delay" id="172" inline="true">
+          <block type="robot_delay" id="346" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="212">
+              <block type="math_number" id="347">
                 <field name="NUM">1000</field>
               </block>
             </value>
             <next>
-              <block type="movement_reverse" id="316">
+              <block type="movement_left" id="182">
                 <next>
-                  <block type="robot_delay" id="184" inline="true">
+                  <block type="robot_delay" id="317" inline="true">
                     <value name="DELAY">
-                      <block type="math_number" id="213">
-                        <field name="NUM">5000</field>
+                      <block type="math_number" id="318">
+                        <field name="NUM">1000</field>
                       </block>
                     </value>
-                    <next>
-                      <block type="movement_left" id="182">
-                        <next>
-                          <block type="robot_delay" id="317" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="318">
-                                <field name="NUM">1000</field>
-                              </block>
-                            </value>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
                   </block>
                 </next>
               </block>
